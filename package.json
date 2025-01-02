@@ -1,22 +1,24 @@
 {
-  "name": "st-eagle-trader",
+  "name": "your-project",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "framer-motion": "^10.0.0"
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "framer-motion": "^10.0.0",
+    "lucide-react": "^0.1.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.4",
-    "typescript": "^4.9.4"
+    "typescript": "^4.0.0",
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.0"
   }
 }
